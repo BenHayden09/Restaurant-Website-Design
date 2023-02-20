@@ -1,0 +1,124 @@
+/* GLOBAL STYLES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: "Verdana";
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    
+    width: 100vw;
+    background-image: url("background_image.png");
+    background-size: 1450px;
+    
+}
+
+/*HEADER*/
+/* Header bar used for navigation*/
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 300px;
+}
+
+.header h1 {
+ font-size: 70%;
+ letter-spacing: 3px;
+ text-align: center;
+} 
+
+.header h2 {
+  font-size: 70%;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  height: 45px;
+  width: 170px;
+  padding: 16px;
+  position: absolute;
+  top: 2em;
+  right: 2.5em; 
+}
+
+.logo-wrapper {
+  margin-top: -10px;
+  margin: 0px 0px 0px 0px;
+  scale: 18%;
+  position: absolute;
+  top: -7.5em;
+  left: -22em; 
+}
+
+/* RESTAURANT LOGO */
+
+.display-wrapper {
+  width;
+  font-size: 70%;
+  letter-spacing: 4px;
+  text-align: center;
+  position:relative;  
+  top: 20em;
+}
+
+.restaurant-logo {
+  scale:50%;
+  display: flex;
+  margin: 0px 0px 0px 220px;
+  position:relative;    
+  top: 10em;
+}
+
+.phrase-wrapper {
+  font-size: 45%;
+  letter-spacing: 1px;
+  text-align: center;
+  position:relative;    
+  top: 10em;
+}
+
+/* HR */
+.hr {
+  margin: 35px 60px;
+  height: 1px;
+  background: #55546D;
+  opacity: 0.5;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#1D1B34), to(#1D1B34), color-stop(50%, #ffffff));
+  position:relative;    
+  top: 5em;
+}
+
+/* DOTS */
+
+.dots {m
+  word-spacing: 60%;
+  position:relative;
+  align-items: center;
+  margin: 200px 692px;
+}
+
+.dot1 {
+  height: 13px;
+  width: 13px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  opacity: 80%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 8px;
+  width: 8px;
+  background-color: rgb(255, 255, 255);
+  opacity: 60%;
+  border-radius: 50%;
+  display: inline-block;
+}
